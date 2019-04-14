@@ -1,0 +1,16 @@
+{
+  "name": "inclass2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Daniel Kramer 10426217",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13"
+  }
+}

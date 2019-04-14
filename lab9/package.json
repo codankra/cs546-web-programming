@@ -1,0 +1,15 @@
+{
+  "name": "lab9",
+  "version": "1.0.0",
+  "description": "lab9 cs-546",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Daniel Kramer 10426217",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}

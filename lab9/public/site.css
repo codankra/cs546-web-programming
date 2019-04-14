@@ -1,0 +1,56 @@
+
+html{
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    background-color: lightsteelblue;
+}
+main{
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 8px 12px 8px #555;
+}
+p{
+    text-align: center;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#primelist{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 8px 12px 8px #555;
+    margin: 10px auto;
+    width: 60%;
+    padding: 0px 40px 40px;
+}
+
+/* index style */
+h3{ 
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.is-prime{
+    color: #00E676;
+}
+.not-prime{
+    color: #FF3D00;
+}
+#desc{
+    text-align: center;
+}
+button{
+    background-color: darkslategray;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
+    border: 1px solid black;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(33, 56, 56);
+}

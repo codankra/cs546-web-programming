@@ -1,0 +1,12 @@
+{
+  "name": "inclass1",
+  "version": "1.0.0",
+  "description": "In class exercise 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node app.js"
+  },
+  "author": "Daniel Kramer 10426217",
+  "license": "ISC"
+}

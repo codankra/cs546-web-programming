@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Prime Number Checker</title>
+    <link rel="stylesheet" href="/public/site.css">
+    <script src="/public/prime.js"></script>
+</head>
+<body>
+    <header>
+            <h1 id="title">Prime Number Checker</h1>
+    </header>
+    <main id="removecheck">
+        <form id="primeForm" onsubmit="submitForm(); return false;">
+            <label for="isprime">Check Number: </label>
+            <input id="isprime" type="number" name="number" />
+            <button type = "submit">Is this number prime?</button>
+        </form>
+        <div id="primelist">
+            <h3 id="desc">Here is where your list of attempts will appear</h3>
+            <ol id="attempts">
+                <!-- Here lies prime LIs from js -->
+            </ol>
+        </div>
+    </main>
+    <footer>
+        <p>Author Name: Daniel Kramer. Student ID: 10426217</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "lab8",
+  "version": "1.0.0",
+  "description": "lab8 cs546",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongodb": "^3.2.2",
+    "node-uuid": "^1.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Daniel Kramer 10426217",
+  "license": "ISC"
+}

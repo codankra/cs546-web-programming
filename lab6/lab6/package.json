@@ -1,0 +1,15 @@
+{
+  "name": "kramer_daniel_cs546_a",
+  "version": "1.0.0",
+  "description": "cs546 lab 6",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Daniel Kramer 10426217",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13"
+  }
+}
