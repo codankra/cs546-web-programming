@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/public/site.css">
+</head>
+<body>
+    <h1>Log In</h1>
+    <main>
+        
+        <p id="desc"> You are not logged in. This is the page with the log in form. If you see this page, you must log in to go to private website pages.</p>
+        <form id="login-form" method="POST" action="/login">
+            <label for="username">Username: </label>
+            <input id="username" type="text" name="username" />
+            <label for="password">Password: </label>
+            <input id="password" type="text" name="password" />
+            <button type = "submit" value = "submit">Log In</button>
+        </form>
+        <p>{{error}}</p>
+    </main>
+</body>
+</html>

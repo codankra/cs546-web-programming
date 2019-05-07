@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Private User Info Page</title>
+    <link rel="stylesheet" href="/public/site.css">
+</head>
+<body>
+    <h1 id="title">Private User Info Page</h1>
+    <h2 id="personName">{{userdata.username}}</h2>
+    <main>
+        <dl>
+            <dt>ID</dt>
+            <dd>{{userdata._id}}</dd>
+            <dt>Username</dt>
+            <dd>{{userdata.username}}</dd>
+            <dt>First Name</dt>
+            <dd>{{userdata.firstName}}</dd>
+            <dt>Last Name</dt>
+            <dd>{{userdata.lastName}}</dd>
+            <dt>Profession</dt>
+            <dd>{{userdata.profession}}</dd>
+            <dt>Bio</dt>
+            <dd>{{userdata.bio}}</dd>
+        </dl> 
+        <a href="/logout">Log out</a>
+    </main>
+</body>
+</html>
